@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(186, 48, 10);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(55, 8, 242);
+    margin: 0;
+    padding: 1px 0;
+}
+nav ul{
+    font-size: 30px;
+    font-weight: 700;
+    list-style-type:none; /*"list-style-type:none;" (el none) se usa para esconder los puntitos del formato lista*/
+    display: flex;
+    justify-content: space-between; /*"justify-content: space-between;" se usa para que los elementos de la lista se esten mas separados entre si (espacio entre li)*/
+    margin: 0;
+    padding: 10px;
+}
+nav li{ 
+    margin: 5px; /*"margin: 5px;" se usa para darle un margen de 5 pixeles a los elementos de la lista*/
+    padding: 5px; /*"padding: 5px;" se usa para darle un relleno de 5 pixeles a los elementos de la lista*/
+    border: solid 5px black; /*"border: solid 5px black;" se usa para poner un borde de 5 pixeles solido de color negro*/
+    border-radius: 100px; /*"border-radius: 100px;" se usa para redondear los bordes de los botones*/
+}
+a{
+    text-decoration: none;
+    
+}
+a:visited {
+    color:black
+}
+.container1{
+    width: 100%;
+    background-color: blueviolet;
+    margin: 0%;
+    padding: 0%;
+}
+.container1 ul, .container2 ul, .container3 ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    font-weight: 1000;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 10px;
+}
+.container2{
+    background-color: aqua;
+}
+.container3{
+    background-color: beige;
+}
+.logo{
+    border: 0!important;
+    height: 70px;
+    width: 70px;
+}

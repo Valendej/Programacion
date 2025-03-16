@@ -1,0 +1,45 @@
+.logo{
+    height:70px;
+    width:70px ;
+    border: 0!important;
+}
+.picture{
+    height: 50px;
+    width: 50px;
+    border: 0!important;  
+}
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: sandybrown;
+    margin: 0;
+    padding: 1px 0;
+}
+nav ul{
+    font-size: 40px;
+    font-weight: 30px;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+}
+nav li{
+    margin: 0px;
+    padding: 5px;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+a :visited{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container01{
+    width: 100%;
+}
